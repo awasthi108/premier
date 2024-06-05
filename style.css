@@ -1,0 +1,676 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(248, 235, 235);
+}
+#main {
+  height: 100%;
+  width: 100%;
+  position: relative;
+
+  padding-top: 0.1px;
+}
+#nav {
+  margin-top: 1.2vmax
+  height: 5vmax;
+  background-color: transparent;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  display: flex;
+  width: 100%;
+  gap: 4vmax;
+  align-items: center;
+  justify-content: space-between;
+}
+#nav h2 {
+  font-weight: 500;
+  height: 100%;
+  
+  width: 20%;
+  display: flex;
+  font-size: 1.5vmax;
+  align-items: center;
+  justify-content: center;
+}
+#small1,
+#small2,
+#small3 {
+  border-left: 2px solid black;
+height: 100px;
+ 
+}
+#nav h1 {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Pacifico;
+  padding-bottom: 12px;
+  margin-left: 1%;
+  font-size: 50px;
+}
+#nav h2:nth-last-child(1) {
+  width: 6%;
+  padding-right: 3%;
+}
+#nav h2:nth-child(6) {
+  width: 25%;
+}
+#nav h2:nth-child(2) {
+  padding-left: 8%;
+}
+#upper-content {
+  height: 90%;
+  width: 100%;
+  position: relative;
+  padding: 3vmax;
+}
+#new-content {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+#new-content video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#overlay {
+  padding-bottom: 20%;
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 3.5vmax;
+  color: white;
+}
+#over1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  border-bottom: 1px solid white;
+}
+#over1 h1 {
+  font-family: Lexend;
+  font-size: 3vmax;
+  font-weight: 900;
+}
+#over2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 18px;
+}
+#over1 h2 {
+  font-size: 1.3vw 1.6vw;
+  border: 1px solid white;
+  padding: 14px;
+  border-radius: 50%;
+}
+#lower-content {
+  height: 21vmax;
+  margin-top: 2%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+#content-container1,
+#content-container2 {
+  height: 100%;
+  width: 100%;
+  margin-top: 1vmax;
+  display: inline-block;
+  animation-name: anime;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+#content-container2 {
+  margin-left: 28%;
+}
+#content-container2 img:nth-child(1) {
+  padding-left: 2px;
+}
+#content-container2 img:nth-child(2) {
+  padding-left: 2px;
+}
+#lower-content img {
+  padding: 1vmax;
+  object-fit: cover;
+  object-position: top;
+  height: 75%;
+  width: 16%;
+  border-radius: 50%;
+}
+/* @keyframes anime {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% ));
+  }
+} */
+#alphabet {
+  height: 3vw;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  gap: 0.3vmax;
+}
+#alphabet h6 {
+  font-size: 1vmax;
+  font-style: italic;
+  letter-spacing: 3px;
+
+  padding: 0.7vmax 0.8vmax;
+  border-radius: 50%;
+}
+#alphabet h6:hover {
+  border: 1px solid black;
+}
+#alphabet h6:nth-child(5),
+h6:nth-child(13),
+h6:nth-child(16),
+h6:nth-child(26) {
+  opacity: 50%;
+}
+
+#alphabet h5 {
+  border-bottom: 1px solid black;
+  font-size: 1.3vmax;
+  margin-right: 1%;
+  font-family: Bitter;
+  font-style: bold;
+}
+
+#page2 {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-wrap: nowrap;
+
+  justify-content: space-around;
+  position: relative;
+  align-items: center;
+overflow: hidden;
+  
+  
+}
+#page2-1 img {
+  height: 100%;
+  width:60%;
+  margin-left: 35%;
+  margin-top: -50px;
+  
+}
+#page2-2 img {
+  height: 100%;
+  width: 60%;
+  margin-left: 25%;
+  margin-top: -220px;
+}
+#txtarea{
+  display: flex;
+  background-color: aqua;
+ 
+}
+#text1{
+  margin-top: -7%;
+  margin-left: 17%;
+  width: 75%;
+
+}
+#text1 h1{
+  font-family: Catamaran;}
+#text2{
+  display: flex;
+  gap: 5vmax;
+  margin-top: -18%;
+}
+#text2 h2{
+  margin-left: 9%;
+  font-family: Asap;
+
+}
+#text2 p{
+  width: 40%;
+}
+#page3 {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-wrap: nowrap;
+
+  justify-content: space-around;
+  position: relative;
+  align-items: center;
+overflow: hidden;
+  
+  
+}
+#page3-1 img {
+  height: 100%;
+  width:60%;
+  
+  margin-left: 270px;
+  margin-bottom: 90%;
+  
+}
+#page3-2 img {
+  height: 100%;
+  width: 30%;
+  margin-left: 55%;
+  margin-top: -220px;
+}
+#txt1 p{
+ height: 100%;
+ width: 40%;
+ margin-left: 10%;
+  margin-top: -18%;
+}
+#ldki{
+  padding-top: 3vw;
+  padding-left: 9vw;
+  padding-right: 12vw;
+  height: 2vw;
+ 
+  height: 100%;
+  
+  
+}
+#ldki img{
+  object-fit: cover;
+  object-position: top;
+  height: 30vw;
+  width: 100%;
+  overflow: hidden;
+}
+.page4{
+  height: 100%;
+  width: 100%;
+  
+  position: relative;
+  padding: 0 2.5vmax;
+  margin-bottom: -100px;
+  
+}
+.page4>h3{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration:underline;
+  margin-top: -10vw;
+  font-size: 2.5vw;
+  margin-bottom: 4%;
+  
+}
+.elem{
+ display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 15vh;
+  width: 100%;
+  border-top: 2px solid black;
+  padding-left: 2.3vw;
+  padding-right: 2.3vw;
+  position: relative;
+}
+.elem>h3{
+  font-size: 1.1vw;
+  font-weight: 540;
+  text-transform: uppercase;
+  
+  width: 7%;
+}
+.elem .elem-part2{
+  
+  width: 38%;
+}
+.elem:nth-child(5){
+  border-bottom: 2px solid black;
+}
+.elem .elem-part2>h5{
+  text-transform: uppercase;
+}
+.elem>img{
+  height: 105px;
+  width: 100px;
+  left:15%;
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  object-fit: cover;
+}
+.elem:nth-last-child(1) img{
+  left: 38%;
+}
+.elem:nth-last-child(3) img{
+  left: 38%;
+} 
+.elem:hover img{
+  opacity: 1;
+  left: 26%;
+}
+#marque{
+ width: 100%;
+  
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  animation-name: movement;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  
+}
+@keyframes movement {
+  from{
+    transform: translate(0);
+
+  }
+  to{
+    transform: translate(calc(-100% - 4px));
+  }
+  
+}
+#marque h1{
+  display: inline-block;
+  font-size: 3.1vmax;
+  font-weight: 900;
+  text-transform: uppercase;
+  -webkit-text-stroke: 2px black;
+  color: transparent;
+  font-family: Ubuntu;
+  animation-name: movement;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  margin-right: 1.2vmax;
+}
+#footer{
+  height: 100%;
+width: 100%;
+}
+#nav h1::after{
+  content: "©️";
+  margin-left: -2px;
+  font-size: 1.4vmax;
+  font-weight: 200;
+  
+}
+#nav h1::before{
+  content: "model management";
+  font-size: 0.8vmax;
+  top: 9.6%;
+  left: 6%;
+  font-weight: 600;
+  position: absolute;
+  width: max-content;
+font-family: Ubuntu;}
+/* .page5{
+  height: 50vh;
+  width: 100%;
+}
+.page5-1{
+  height: 50%;
+  width: 100%;
+  padding: 2.8vw 2.8vw;
+  display: flex;
+  
+} */
+/* .page-5-1-1{
+  width: 50%;
+  position: relative;
+  height: 50%;
+  display: flex;
+  overflow: hidden;
+flex-wrap: nowrap;
+align-items: center;
+justify-content: space-between;
+background-color: red;
+}
+.page-5-1-1>img{
+  size: 20px;
+
+  position: relative;
+} */
+.page5{
+  height: 90vh;
+  width: 100%;
+
+  padding:5vh 8vmax;
+  display: flex;
+ 
+}
+.page5-1{
+  height: 100%;
+  width: 40%;
+
+  position: relative;
+  overflow: hidden;
+  margin-right: 10%;
+
+}
+.page5-1>img{
+  height: 100%; 
+  width: 100%;
+  
+  
+}
+.page5-2{
+  height: 100%;
+  width: 50%;
+  
+  position: relative;
+  overflow: hidden;
+  
+}
+.page5-2>h1{
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.page5-3{
+  margin-top: 5%;
+  margin-bottom: 5%;}
+
+.page5-3>p{
+  font-weight: 400;
+}
+
+.page5-4{
+  height: 100%;
+
+  display: flex;
+width: 100%;
+  position: relative;
+ 
+  overflow: hidden;
+  
+}
+.page5-4-1{
+  height: 100%;
+  width: 50%;
+
+  
+}
+.page5-4-1>img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+.page5-4-2{
+  height: 100%;
+  width: 50%;
+  padding-left: 5px;
+ 
+}
+.page5-4-2>img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.page6{
+  height: 150vh;
+  width: 100%;
+  margin-top: 1.5%;
+}
+.page6-1{
+ 
+  width: 100%;
+  height: 60%;
+  overflow: hidden;
+  padding: 2vh 14vmax;
+}
+.page6-1>img{
+height: 100%;
+width: 100%;
+}
+.page6-2{
+  
+  height: 40%;
+  display: flex;
+}
+.page6-2-1{
+  width: 50%;
+  overflow: hidden;
+ 
+  height: 100%;
+
+ position: relative;
+  padding-left: 14vmax;
+  
+}
+.page6-2-2{
+  
+  width: 36%;
+  overflow: hidden;
+ 
+  height: 100%;
+  padding-left: 1.8vmax;
+ position: relative;
+}
+.page6-2-2>img{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+  
+}
+.page6-2-1>img{
+ height: 100%;
+ width: 100%;
+ position: absolute;
+ object-fit: cover;
+  
+
+}
+.last{
+  width: 100%;
+  margin-top: 2%;
+  height: 25vh;
+border-top: 2px solid black;
+  display: flex;
+  border-bottom: 2px solid black;
+justify-content: flex-start;}
+.last1{
+  margin-left: 9%;
+  width: 15%;
+ 
+  margin-right: 8%;
+}
+.last2{
+  
+ 
+  padding: 10px;
+  display: flex;
+}
+.last3{
+ 
+  text-align: end;
+
+}
+.last1>h1{
+  margin-top: 5%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 3vw;
+  height: 100%;
+}
+
+.last1>h1::before{
+  content: "model management";
+  font-size: 0.7vmax;
+  margin-left: 3.2%;
+  margin-top: 3.1%;
+  font-weight: 600;
+  position: absolute;
+  width: max-content;
+font-family: Ubuntu;}
+
+.last2>h2{
+  margin-top: 22%;
+  font-size: 1.4vw;
+  font-family: Ubuntu;
+  }
+.faltu{
+  margin-left: 5%;
+  border: 1px solid black;
+  margin-right: 8%;
+}
+.last3>h2{
+  margin-top: 20%;
+  font-size: 1.4vw;
+  font-family: Ubuntu;
+
+}
+.faltu2{
+  border: 1px solid black;
+  margin-left: 6%;
+}
+.last4{
+
+width: 100%;  
+}
+.last4-1>h2{
+  margin-left:21%;
+  margin-top: 3.5%;
+  font-size: 1.4vw;
+  font-family: Ubuntu;
+}
+.faltu3{
+  margin-top: 5%;
+  border:1px solid black;
+}
+.last4-2{
+  display: flex;
+  margin-top: 1%;
+  align-items: center;
+  
+  justify-content: center;
+  margin-bottom: 0.5vw;
+  
+}
+.last4-2>i{
+  font-size: 1.7vw;
+  padding: 1.5%;
+
+}
+.last4-3>h4{
+  margin-left: 2%;
+}

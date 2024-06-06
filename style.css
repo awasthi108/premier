@@ -28,6 +28,9 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+#nav h3{
+  display: none;
+}
 #nav h2 {
   font-weight: 500;
   height: 100%;
@@ -374,7 +377,7 @@ overflow: hidden;
   white-space: nowrap;
   overflow-x: hidden;
   overflow-y: hidden;
-  animation-name: movement;
+  
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   padding-top: 1%;
@@ -387,7 +390,7 @@ overflow: hidden;
 
   }
   to{
-    transform: translate(calc(-100% - 4px));
+    transform: translate(calc(-100% - 10px));
   }
   
 }
@@ -396,9 +399,11 @@ overflow: hidden;
   font-size: 3.1vmax;
   font-weight: 900;
   text-transform: uppercase;
-  -webkit-text-stroke: 2px black;
+  -webkit-text-stroke: 2px rgb(5, 5, 4);
   color: transparent;
-  font-family: Ubuntu;
+  font-family: 'Bowlby One SC', sans-serif;
+
+
   animation-name: movement;
   animation-duration: 5s;
   animation-timing-function: linear;
@@ -677,3 +682,215 @@ width: 100%;
 .last4-3>h4{
   margin-left: 2%;
 }
+@media (max-width:600px) {
+ #main{
+  overflow-x: hidden;
+ }
+  #nav {
+    margin-top: 1.2vmax
+    height: 5vmax;
+    background-color: transparent;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    width: 100%;
+    gap: 4vmax;
+    
+    align-items: center;
+    justify-content: space-between;
+  }
+  #nav h2 {
+    
+    display: none;
+  
+    
+  }
+  #nav h1::before{
+    display: none;}
+  #small1,
+  #small2,
+  #small3 {
+    
+  display: none;
+   
+  }
+  #nav h1 {
+    height: 100%;
+    
+    display: flex;
+   
+    justify-content: flex-start;
+    font-family: Pacifico;
+    padding-bottom: 12px;
+    margin-left: 1%;
+    align-items: center;
+    font-size: 25px;
+    padding-left: 5vw;
+    padding-top: 0.4vw;
+  }
+  #nav h2:nth-last-child(1) {
+    display: none;
+
+  }
+  #nav h2:nth-child(6) {
+
+    display: none;
+  }
+  #nav h2:nth-child(2) {
+   
+    display: none;
+  }
+  #nav h3{
+    display: block;
+    margin-right: 5vw;
+  }
+  #upper-content {
+  height: 63%;
+  width: 100%;
+  margin-top: 3%;
+  position: relative;
+  padding: 3vmax;
+}
+#new-content {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+#new-content video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#overlay {
+ top: 70%;
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 1vmax;
+  color: white;
+}
+#over1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+#over1 h1 {
+  font-family: Lexend;
+  font-size: 2.8vmax;
+  font-weight: 900;
+}
+#over2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+#over1 h2 {
+  font-size: 0.8vw 0.8vw;
+  border: 1px solid white;
+  padding: 14px;
+  border-radius: 50%;
+}
+#lower-content {
+  height: 20vmax;
+  margin-top: 6%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+#lower-content img {
+  padding: 1vmax;
+  object-fit: cover;
+  object-position: top;
+  height: 75%;
+  width: 32%;
+  border-radius: 50%;
+}
+#alphabet {
+  margin-top: -1%;
+  height: 8vw;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  gap: 0.3vmax;
+}
+#alphabet h6 {
+  font-size: 1vmax;
+  font-style: italic;
+  letter-spacing: 3px;
+
+  padding: 0.7vmax 0.1vmax;
+
+}
+#alphabet h6:hover {
+ display: none;
+}
+#page2 {
+  display: flex;
+  height: 100%;
+  width: 100%;
+ 
+  top: -29%;
+  
+  position: relative;
+  
+overflow: hidden;
+  
+  
+}
+#page2-2{
+  margin-top: -6.2%;
+}
+#page2-1 img {
+  height: 100%;
+  width:150px;
+  margin-left: -2%;
+  margin-top: -50px;
+  
+}
+#page2-2 img {
+  height: 100%;
+  width: 210px;
+ margin-left: -5%;
+ 
+}
+#txtarea{
+  display: flex;
+  background-color: aqua;
+ 
+}
+#text1{
+  margin-top: -130%;
+  margin-left: 8%;
+  width: 100%;
+  
+
+}
+#text1 h1{
+  font-family: Catamaran;
+font-size: 16px;
+}
+#text2{
+  display: block;
+  width: 100%;
+  margin-left: -22%;
+  margin-top: -153%;
+}
+#text2 h2{
+  margin-left: 25%;
+  font-size: 15px;
+  font-family: Asap;
+
+}
+#text2 p{
+  display: none;
+}
+}
+

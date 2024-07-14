@@ -22,8 +22,7 @@ body {
   background-color: transparent;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
-  dis
-  play: flex;
+  display: flex;
   width: 100%;
   gap: 4vmax;
   align-items: center;
@@ -1241,3 +1240,4 @@ font-size: 14px;
 }
 
 }
+

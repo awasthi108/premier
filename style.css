@@ -22,7 +22,8 @@ body {
   background-color: transparent;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
-  display: flex;
+  dis
+  play: flex;
   width: 100%;
   gap: 4vmax;
   align-items: center;
@@ -841,7 +842,7 @@ width: 100%;
   
   position: relative;
   
-overflow: hidden;
+
   
   
 }
@@ -849,14 +850,13 @@ overflow: hidden;
   margin-top: -6.2%;
 }
 #page2-1 img {
-  height: 100%;
+  height: 10%;
   width:150px;
   margin-left: -2%;
   margin-top: -50px;
   
 }
 #page2-2 img {
-  height: 100%;
   width: 210px;
  margin-left: -5%;
  
@@ -892,5 +892,352 @@ font-size: 16px;
 #text2 p{
   display: none;
 }
+#page3 {
+display: none;
+  
+  
 }
 
+
+
+#txt1 p{
+ height: 100%;
+ width: 80%;
+ margin-left: 10%;
+ padding-bottom: 10px;
+ text-align: left;
+ text-decoration-line:underline;
+  margin-top: -120%;
+}
+#ldki{
+  padding-top: 1vw;
+  padding-left: 9vw;
+  padding-right: 12vw;
+  height: 2vw;
+ 
+  height: 100%;
+  
+  
+}
+#ldki img{
+  object-fit: cover;
+  object-position: top;
+
+
+  
+}
+.page4{
+  height: 100%;
+  width: 100%;
+  
+  position: relative;
+  padding: 0 2.5vmax;
+  margin-top: -150%;
+  
+}
+.page4>h3{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration:underline;
+  margin-top: -10vw;
+  font-size: 2.5vw;
+  margin-bottom: 4%;
+  
+}
+.elem{
+ display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 15vh;
+  width: 100%;
+  border-top: 2px solid black;
+  padding-left: 2.3vw;
+  padding-right: 2.3vw;
+  position: relative;
+}
+.elem-part2>h1{
+  font-size: 5vw;
+}
+.elem>h3{
+  font-size: 1.8vw;
+  font-weight: 540;
+  text-transform: uppercase;
+  
+  width: 7%;
+}
+.elem .elem-part2{
+  
+  width: 38%;
+}
+.elem:nth-child(5){
+  border-bottom: 2px solid black;
+}
+.elem .elem-part2>h5{
+  text-transform: uppercase;
+  margin-top: 2px;
+  margin-left: 5px;
+  font-size: 8px;
+}
+.elem>img{
+  height: 85px;
+  width: 90px;
+  left:15%;
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  object-fit: cover;
+}
+
+#marque{
+ width: 100%;
+  
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  
+}
+@keyframes movement {
+  from{
+    transform: translate(0);
+
+  }
+  to{
+    transform: translate(calc(-100% - 10px));
+  }
+  
+}
+.page5{
+  height: 90vh;
+  width: 100%;
+margin-top: -62%;
+  padding:5vh 8vmax;
+  display: grid;
+ 
+}
+.page5-1{
+  height: 90%;
+  width: 100%;
+
+  position: relative;
+  overflow: hidden;
+ 
+
+}
+.page5-1>img{
+  height: 100%; 
+  width: 100%;
+  
+  
+}
+.page5-2{
+  margin-top: -25px;
+  height: 100%;
+  width: 100%;
+  
+  position: relative;
+  overflow: hidden;
+  
+}
+.page5-2>h1{
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.page5-3{
+  margin-top: 5%;
+  margin-bottom: 5%;}
+
+.page5-3>p{
+  font-weight: 500;
+}
+
+.page5-4{
+  height: 100%;
+
+  
+width: 100%;
+  position: relative;
+ display: grid;
+  overflow: hidden;
+  
+}
+.page5-4-1{
+  height: 100%;
+  width: 50%;
+
+  
+}
+.page5-4-1>img{
+  height: 70vw;
+  width: 200%;
+object-position: center;
+overflow: hidden;
+object-fit: cover;
+
+}
+.page5-4-2{
+ display: none;
+ 
+}
+.page5-4-2>img{
+ display: none;
+}
+#marque{
+  margin-top: -7%;
+  
+}
+.page6{
+  height: 22vh;
+  width: 100%;
+  margin-top: 0;
+  
+
+}
+.page6-1{
+ 
+ 
+  display: none;
+}
+.page6-1>img{
+display: none;
+
+}
+.page6-2{
+  
+  height: 100%;
+
+}
+.page6-2-1{
+  width:150%;
+margin-left: -30%;
+  overflow: hidden;
+ 
+  height: 100%;
+
+ object-fit: cover;
+  
+  
+}
+.page6-2-2{
+  
+  display: none;
+}
+
+
+#nav h1::after{
+  content: "©️";
+  margin-left: -2px;
+  font-size: 1.4vmax;
+  font-weight: 200;
+  
+}
+#nav h1::before{
+  content: "model management";
+  font-size: 0.8vmax;
+  top: 9.6%;
+  left: 6%;
+  font-weight: 600;
+  position: absolute;
+  width: max-content;
+font-family: Ubuntu;}
+.last{
+  width: 100%;
+  margin-top: -0.1%;
+  height: 25vh;
+border-top: 2px solid black;
+  display: flex;
+  border-bottom: 2px solid black;
+justify-content: flex-start;}
+.last1{
+  margin-left: 9%;
+  width: 15%;
+ 
+  margin-right: 8%;
+}
+.last2{
+  
+ 
+  padding: 10px;
+  display: flex;
+}
+.last3{
+ 
+  text-align: end;
+
+}
+.last1>h1{
+  margin-top: 5%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size:6vw;
+  height: 100%;
+}
+
+.last1>h1::before{
+  content: "model management";
+  font-size: 0.7vmax;
+  margin-left: 0.5%;
+  margin-top: 5.5%;
+  font-weight: 600;
+  position: absolute;
+  width: max-content;
+font-family: Ubuntu;}
+
+.last2>h2{
+  display: none;
+  }
+.faltu{
+  margin-left: 5%;
+  border: 1px solid black;
+  margin-right: 8%;
+}
+.last3>h2{
+  margin-top: 20%;
+  font-size: 3.2vw;
+
+  font-family: Ubuntu;
+
+}
+.faltu2{
+  border: 1px solid black;
+  margin-left: 6%;
+}
+.last4{
+
+width: 100%;  
+}
+.last4-1{
+  height: 7%;
+}
+.last4-1>h2{
+  display: none;
+}
+.faltu3{
+  display: none;
+}
+.last4-2{
+  display: flex;
+  margin-top: 1%;
+  align-items: center;
+  
+  justify-content: center;
+  margin-bottom: 0.5vw;
+  
+}
+.last4-2>i{
+  font-size:3.5vw;
+  padding: 1.5%;
+  padding-bottom: 12%;
+
+}
+.last4-3>h4{
+font-size: 14px;
+}
+
+}
